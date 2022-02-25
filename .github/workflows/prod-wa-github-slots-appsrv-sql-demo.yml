@@ -6,7 +6,7 @@ name: Production Build and Deploy - wa-github-slots-appsrv-sql-demo
 on:
   push:
     branches:
-      - release
+      - release*
   workflow_dispatch:
 
 jobs:
